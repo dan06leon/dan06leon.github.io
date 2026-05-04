@@ -1,0 +1,37 @@
+:root {
+    --navy: #1B263B;
+    --scarlet: #CC0033;
+    --cream: #F4F4F2;
+    --white: #FFFFFF;
+    --success: #27ae60;
+}
+
+body { font-family: 'Segoe UI', sans-serif; background: var(--cream); display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+.app-container { background: var(--white); padding: 30px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); width: 95%; max-width: 550px; text-align: center; }
+
+.hidden { display: none; }
+.options-grid { display: flex; flex-direction: column; gap: 10px; margin: 20px 0; }
+
+.opt-btn {
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+
+.opt-btn:hover { background: var(--navy); color: white; }
+.opt-btn.correct { background: var(--success) !important; color: white; border-color: var(--success); }
+.opt-btn.wrong { background: var(--scarlet) !important; color: white; border-color: var(--scarlet); }
+
+/* Shake Animation */
+.shake { animation: shake 0.4s ease-in-out; }
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-8px); }
+    75% { transform: translateX(8px); }
+}
+
+.retry-btn { background: var(--navy); color: white; border: none; padding: 12px 25px; border-radius: 5px; cursor: pointer; margin-top: 20px; }

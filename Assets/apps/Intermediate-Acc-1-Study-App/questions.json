@@ -1,0 +1,182 @@
+[
+    {
+        "question": "What is the core principle of Revenue Recognition under ASC 606?",
+        "options": ["Recognize when cash is received", "Recognize to depict the transfer of promised goods or services", "Recognize at the end of the fiscal year", "Recognize when the contract is signed"],
+        "answer": "Recognize to depict the transfer of promised goods or services",
+        "category": "Revenue Recognition"
+    },
+    {
+        "question": "What are the 5 steps of the Revenue Recognition model?",
+        "options": ["Identify, Analyze, Record, Post, Close", "Identify contract, Identify obligations, Determine price, Allocate price, Recognize revenue", "Cash, Receivables, Inventory, Payables, Equity", "Contract, Delivery, Billing, Payment, Audit"],
+        "answer": "Identify contract, Identify obligations, Determine price, Allocate price, Recognize revenue",
+        "category": "Revenue Recognition"
+    },
+    {
+        "question": "What is the formula for calculating straight-line depreciation?",
+        "options": ["(Cost - Salvage Value) / Useful Life", "Cost / Useful Life", "(Cost + Salvage) / Market Value", "Book Value x Rate"],
+        "answer": "(Cost - Salvage Value) / Useful Life",
+        "category": "Fixed Assets"
+    },
+    {
+        "question": "How is a change in accounting principle generally handled?",
+        "options": ["Prospectively", "Currently", "Retrospectively", "Ignored until year-end"],
+        "answer": "Retrospectively",
+        "category": "Accounting Principles"
+    },
+    {
+        "question": "What are the three components of the 'Fraud Triangle'?",
+        "options": ["Greed, Need, Speed", "Opportunity, Pressure, Rationalization", "Theft, Collusion, Deception", "Risk, Materiality, Control"],
+        "answer": "Opportunity, Pressure, Rationalization",
+        "category": "Internal Controls"
+    },
+    {
+        "question": "What are the two fundamental qualitative characteristics of useful financial information?",
+        "options": ["Cost and Benefit", "Relevance and Faithful Representation", "Timeliness and Verifiability", "Comparability and Consistency"],
+        "answer": "Relevance and Faithful Representation",
+        "category": "Conceptual Framework"
+    },
+    {
+        "question": "What is the difference between an Account Receivable and a Note Receivable?",
+        "options": ["Notes are oral; Accounts are written", "Accounts are oral promises; Notes are written formal promises", "There is no difference", "Accounts always charge interest; Notes do not"],
+        "answer": "Accounts are oral promises; Notes are written formal promises",
+        "category": "Receivables"
+    },
+    {
+        "question": "How do you calculate Ending Inventory using FIFO?",
+        "options": ["Assign oldest costs to units on hand", "Assign most recent costs to units on hand", "Average all costs", "Use only the last purchase price"],
+        "answer": "Assign most recent costs to units on hand",
+        "category": "Inventory"
+    },
+    {
+        "question": "What is the 'Time Value of Money' concept?",
+        "options": ["Money is worth less today than in the future", "A dollar today is worth more than a dollar in the future", "Inflation does not exist", "Time is a liability"],
+        "answer": "A dollar today is worth more than a dollar in the future",
+        "category": "Valuation"
+    },
+    {
+        "question": "What is a 'Deferred Tax Asset'?",
+        "options": ["A future tax payment owed", "Future tax savings from overpayment or advance payment", "A tax penalty", "A current tax expense"],
+        "answer": "Future tax savings from overpayment or advance payment",
+        "category": "Taxes"
+    },
+    {
+        "question": "What is the 'Full Disclosure Principle'?",
+        "options": ["Disclose only profits", "Provide all info that could influence an informed user", "Disclose only legal disputes", "Keep all information private"],
+        "answer": "Provide all info that could influence an informed user",
+        "category": "Reporting"
+    },
+    {
+        "question": "What are 'Accrued Liabilities'?",
+        "options": ["Expenses paid in advance", "Expenses incurred but not yet paid", "Cash in the bank", "Loans from shareholders"],
+        "answer": "Expenses incurred but not yet paid",
+        "category": "Liabilities"
+    },
+    {
+        "question": "What is the 'Lower of Cost or Market' (LCM) rule?",
+        "options": ["Value inventory at the highest price", "Value inventory at cost or replacement cost, whichever is lower", "Always use Market Value", "Always use Historical Cost"],
+        "answer": "Value inventory at cost or replacement cost, whichever is lower",
+        "category": "Inventory"
+    },
+    {
+        "question": "What is the difference between a Current and Non-Current Asset?",
+        "options": ["Current is cash only", "Current is converted to cash within one year; Non-current is longer", "Non-current is only buildings", "Current assets have no value"],
+        "answer": "Current is converted to cash within one year; Non-current is longer",
+        "category": "Balance Sheet"
+    },
+    {
+        "question": "Define 'Owner's Equity'.",
+        "options": ["Total Cash", "Assets plus Liabilities", "Residual interest in assets after deducting liabilities", "Total Market Value of the company"],
+        "answer": "Residual interest in assets after deducting liabilities",
+        "category": "Balance Sheet"
+    },
+    {
+        "question": "What is 'Goodwill' in accounting?",
+        "options": ["A company's reputation (not recorded)", "Excess paid over fair value of net assets during acquisition", "Total sales for the year", "Donations to charity"],
+        "answer": "Excess paid over fair value of net assets during acquisition",
+        "category": "Intangibles"
+    },
+    {
+        "question": "What is the 'Matching Principle'?",
+        "options": ["Matching assets to liabilities", "Recognizing expenses in the same period as related revenues", "Matching cash in to cash out", "Matching the trial balance"],
+        "answer": "Recognizing expenses in the same period as related revenues",
+        "category": "Accounting Principles"
+    },
+    {
+        "question": "What are 'Cash Equivalents'?",
+        "options": ["Only physical currency", "Highly liquid investments convertible to known cash amounts", "Accounts Receivable", "Long-term bonds"],
+        "answer": "Highly liquid investments convertible to known cash amounts",
+        "category": "Assets"
+    },
+    {
+        "question": "What is the difference between an Operating Lease and a Finance Lease?",
+        "options": ["Finance leases are only for cars", "Finance leases transfer ownership risks; Operating leases are like rentals", "There is no accounting difference", "Operating leases are recorded as assets"],
+        "answer": "Finance leases transfer ownership risks; Operating leases are like rentals",
+        "category": "Leases"
+    },
+    {
+        "question": "Define 'Unearned Revenue'.",
+        "options": ["Revenue that will never be collected", "Cash received before the service/product is provided", "Revenue earned but not billed", "Profit from sales"],
+        "answer": "Cash received before the service/product is provided",
+        "category": "Liabilities"
+    },
+    {
+        "question": "What is a 'Trial Balance'?",
+        "options": ["The final financial statement", "A list to ensure total debits equal total credits", "A bank statement", "An auditor's report"],
+        "answer": "A list to ensure total debits equal total credits",
+        "category": "Accounting Cycle"
+    },
+    {
+        "question": "What is 'Amortization'?",
+        "options": ["Depreciation of land", "Systematic allocation of cost for intangible assets", "Paying off a loan", "Writing off bad debt"],
+        "answer": "Systematic allocation of cost for intangible assets",
+        "category": "Intangibles"
+    },
+    {
+        "question": "What is the 'Historical Cost Principle'?",
+        "options": ["Recording assets at current market value", "Recording assets at their actual cost at time of purchase", "Adjusting for inflation", "Recording at expected future value"],
+        "answer": "Recording assets at their actual cost at time of purchase",
+        "category": "Accounting Principles"
+    },
+    {
+        "question": "What constitutes 'Comprehensive Income'?",
+        "options": ["Gross Profit minus Expenses", "Net Income + Other Comprehensive Income", "Only Dividend income", "Sales minus Cost of Goods Sold"],
+        "answer": "Net Income + Other Comprehensive Income",
+        "category": "Reporting"
+    },
+    {
+        "question": "What is a 'Contra-Asset Account'?",
+        "options": ["An asset with a debit balance", "An account that reduces the value of a related asset", "A liability account", "An expense account"],
+        "answer": "An account that reduces the value of a related asset",
+        "category": "Balance Sheet"
+    },
+    {
+        "question": "What is 'Treasury Stock'?",
+        "options": ["Stock owned by the government", "Shares a company has bought back from the market", "Preferred shares", "Unissued shares"],
+        "answer": "Shares a company has bought back from the market",
+        "category": "Equity"
+    },
+    {
+        "question": "Define 'Working Capital'.",
+        "options": ["Total Assets", "Current Assets minus Current Liabilities", "Total Equity", "Cash on hand"],
+        "answer": "Current Assets minus Current Liabilities",
+        "category": "Analysis"
+    },
+    {
+        "question": "What is the 'Going Concern Assumption'?",
+        "options": ["The company is going bankrupt", "The belief the company will operate for the foreseeable future", "The business is closing its doors", "Management is concerned about profits"],
+        "answer": "The belief the company will operate for the foreseeable future",
+        "category": "Assumptions"
+    },
+    {
+        "question": "What are 'Prior Period Adjustments'?",
+        "options": ["Estimates for next year", "Corrections of errors in previous financial statements", "Current year adjustments", "Bank reconciliations"],
+        "answer": "Corrections of errors in previous financial statements",
+        "category": "Reporting"
+    },
+    {
+        "question": "What is the 'Double-Entry System'?",
+        "options": ["Entering data twice to prevent errors", "Every transaction affects at least two accounts", "Having two sets of books", "Using two different currencies"],
+        "answer": "Every transaction affects at least two accounts",
+        "category": "Accounting Cycle"
+    }
+]

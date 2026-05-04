@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Leon | Professional Portfolio</title>
+    <style>
+        :root {
+            --navy: #1B263B;
+            --cream: #F4F4F2;
+            --scarlet: #CC0033;
+            --white: #FFFFFF;
+        }
+
+        /* STRICT NO ANIMATION */
+        * { margin: 0; padding: 0; box-sizing: border-box; transition: none !important; animation: none !important; }
+
+        body { font-family: 'Segoe UI', Arial, sans-serif; background-color: var(--cream); color: #333; line-height: 1.6; }
+
+        /* HEADER */
+        nav { background: var(--navy); padding: 1rem 10%; border-bottom: 4px solid var(--scarlet); display: flex; justify-content: space-between; align-items: center; }
+        .nav-links a { color: white; text-decoration: none; margin-left: 20px; font-weight: bold; font-size: 14px; text-transform: uppercase; }
+
+        /* HERO SECTION */
+        .hero { position: relative; height: 350px; background: var(--navy); width: 100%; overflow: hidden; }
+        .hero img { width: 100%; height: 100%; object-fit: cover; opacity: 0.4; }
+        .hero-text { position: absolute; top: 30px; left: 10%; color: white; z-index: 10; }
+        .hero-text h1 { font-size: 40px; margin: 0; }
+        .hero-text p { font-size: 20px; color: #ddd; margin-top: 5px; }
+
+        /* MAIN CARD */
+        .container { max-width: 1000px; margin: -60px auto 60px; padding: 0 20px; position: relative; z-index: 20; }
+        .card { background: var(--white); padding: 50px; display: flex; gap: 50px; align-items: center; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        
+        /* RESTORED ORIGINAL CROP */
+        .profile-pic { 
+            width: 260px; 
+            height: 260px; 
+            object-fit: cover; 
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            flex-shrink: 0;
+        }
+
+        .bio-content h2 { font-size: 2.2rem; color: var(--navy); margin-bottom: 5px; }
+        .tagline { color: var(--scarlet); font-weight: 700; display: block; margin-bottom: 20px; font-size: 1.1rem; }
+        .bio-content p { font-size: 1.05rem; color: #444; margin-bottom: 20px; }
+
+        /* APP BUTTON */
+        .btn-study { 
+            display: inline-block; 
+            padding: 12px 25px; 
+            background: var(--navy); 
+            color: white !important; 
+            text-decoration: none; 
+            font-weight: bold; 
+            border-radius: 4px; 
+            border: 2px solid var(--navy);
+            margin-top: 10px;
+        }
+        .btn-study:hover { background: var(--white); color: var(--navy) !important; }
+
+        /* INFO BOXES (Education, Skills, Projects) */
+        .info-box { margin-top: 30px; background: var(--white); padding: 40px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        h3 { color: var(--navy); text-transform: uppercase; letter-spacing: 1px; border-bottom: 2px solid var(--scarlet); display: inline-block; margin-bottom: 25px; font-size: 1.2rem; }
+        
+        .edu-item { display: grid; grid-template-columns: 200px 1fr; gap: 10px; margin-bottom: 15px; font-size: 1.05rem; }
+        .edu-label { font-weight: 700; color: #666; }
+        
+        .project-description { font-size: 1.05rem; color: #444; margin-bottom: 20px; }
+
+        footer { text-align: center; padding: 40px 0; color: #888; font-size: 0.9rem; }
+
+        /* EASTER EGG STYLES */
+        .secret-btn {
+            background: none;
+            border: none;
+            color: #999; 
+            font-size: 13px; 
+            text-decoration: underline;
+            cursor: pointer;
+            margin-bottom: 15px;
+        }
+        .secret-btn:hover { color: var(--scarlet); } 
+        
+        #fun-fact-text {
+            display: none;
+            color: var(--scarlet);
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .flag-icon {
+            width: 20px;
+            vertical-align: middle;
+            margin-left: 5px;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+        }
+
+        .copyright-text { margin-top: 15px; font-size: 0.9rem; color: #888; }
+
+        @media (max-width: 768px) {
+            .card { flex-direction: column; text-align: center; padding: 30px; gap: 30px; }
+            .edu-item { grid-template-columns: 1fr; gap: 2px; margin-bottom: 20px; }
+            .hero-text h1 { font-size: 30px; }
+            .nav-links { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <img src="Assets/RutgersLogo.png" alt="Rutgers Logo" style="height:45px;">
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#education">Academics</a>
+            <a href="#projects">Projects</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <img src="Assets/RBS_Building.jpg" alt="Rutgers Business School">
+        <div class="hero-text">
+            <h1>Rutgers Business School</h1>
+            <p>New Brunswick, New Jersey</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="card" id="about">
+            <img src="Assets/ProfilePic.jpeg" alt="Daniel Leon" class="profile-pic">
+            <div class="bio-content">
+                <h2>Daniel Leon</h2>
+                <span class="tagline">Accounting Major | Class of 2028</span>
+                
+                <p>
+                    I am a dedicated <strong>Second-Year student</strong> at Rutgers Business School, 
+                    currently pursuing my degree in <strong>Accounting</strong>. My focus lies at the intersection 
+                    of financial integrity and business strategy. I am committed to developing 
+                    the technical and analytical skills necessary to excel in the accounting 
+                    profession and contribute to the Rutgers community.
+                </p>
+            </div>
+        </section>
+
+        <section class="info-box" id="education">
+            <h3>Academic Profile</h3>
+            
+            <div class="edu-item">
+                <div class="edu-label">Institution</div>
+                <div>Rutgers University – New Brunswick</div>
+            </div>
+            
+            <div class="edu-item">
+                <div class="edu-label">School</div>
+                <div>Rutgers Business School</div>
+            </div>
+
+            <div class="edu-item">
+                <div class="edu-label">Major</div>
+                <div>Accounting</div>
+            </div>
+
+            <div class="edu-item">
+                <div class="edu-label">Classification</div>
+                <div>Second-Year Student</div>
+            </div>
+
+            <div class="edu-item">
+                <div class="edu-label">Graduation Year</div>
+                <div>2028</div>
+            </div>
+        </section>
+
+        <section class="info-box" id="skills">
+            <h3>Skills & Coursework</h3>
+            
+            <div class="edu-item">
+                <div class="edu-label">Technical Skills</div>
+                <div>Microsoft Office (Word, Excel, PowerPoint), Google Workspace, HTML/CSS/JS, Tableau</div>
+            </div>
+            
+            <div class="edu-item">
+                <div class="edu-label">Languages</div>
+                <div>Fluent in English & Spanish</div>
+            </div>
+
+            <div class="edu-item">
+                <div class="edu-label">Relevant Coursework</div>
+                <div>Intermediate Accounting I, Accounting Information Systems, Financial Accounting, Microeconomics, Macroeconomics, Computer Applications for Business, Operations Management</div>
+            </div>
+        </section>
+
+        <section class="info-box" id="involvement">
+            <h3>Campus Involvement</h3>
+            
+            <div class="edu-item">
+                <div class="edu-label">Organization</div>
+                <div>Association of Latino Professionals For America (ALPFA)</div>
+            </div>
+            
+            <div class="edu-item">
+                <div class="edu-label">Role</div>
+                <div>Member</div>
+            </div>
+        </section>
+
+        <section class="info-box" id="projects">
+            <h3>Interactive Projects</h3>
+            
+            <p class="project-description">
+                <strong>Accounting Concepts Flashcard Game:</strong> 
+                Test your knowledge of core accounting principles with this interactive study tool. 
+                Designed to align with the rigorous Intermediate Accounting I curriculum, this app tests proficiency in the FASB Conceptual Framework, time value of money applications, inventory valuation, and complex revenue recognition under ASC 606.
+            </p>
+            
+            <a href="Assets/apps/Intermediate-Acc-1-Study-App/index.html" class="btn-study">Intermediate Accounting I Study App</a>
+        </section>
+    </div>
+
+    <footer>
+        <button class="secret-btn" onclick="document.getElementById('fun-fact-text').style.display='block'; this.style.display='none';">Click here for a small interesting fact!</button>
+        
+        <p id="fun-fact-text">
+            I am Costa Rican and Puerto Rican! 
+            <img src="https://flagcdn.com/w20/cr.png" alt="Costa Rica" class="flag-icon"> 
+            <img src="https://flagcdn.com/w20/pr.png" alt="Puerto Rico" class="flag-icon">
+        </p>
+        
+        <p class="copyright-text">&copy; 2026 Daniel Leon | Rutgers Business School Portfolio</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermediate Accounting 1 | Exam Prep</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <div class="app-container" id="quiz-box">
+        <a href="../../../index.html" class="back-link">← Back to Portfolio</a>
+        
+        <div id="game-area">
+            <h1 id="question-text">Loading Exam Questions...</h1>
+            <div id="options-container" class="options-grid"></div>
+            
+            <div class="progress">
+                <p>Question <span id="current-num">1</span> of 10</p>
+            </div>
+        </div>
+
+        <div id="results-area" class="hidden">
+            <h1>Exam Complete!</h1>
+            <h2 id="final-score"></h2>
+            <div id="feedback-section">
+                <h3>Topics to Review:</h3>
+                <ul id="review-list"></ul>
+            </div>
+            <button onclick="location.reload()" class="retry-btn">Restart Exam</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
